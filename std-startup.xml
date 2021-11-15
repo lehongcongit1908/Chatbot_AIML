@@ -1,0 +1,11 @@
+<aiml version ="1.0.0" encoding ="UTF-8">
+    <!-- khởi tạo -->
+    <category>
+        <pattern>LOAD AIML B</pattern>
+        <template> 
+            <learn>basic_chat.aiml</learn>
+        </template>
+
+    </category>
+
+</aiml>
