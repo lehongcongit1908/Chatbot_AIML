@@ -1,0 +1,22 @@
+<aiml version = "1.0.1" encoding ="UTF-8">
+  <category>
+    <pattern>hello</pattern>
+    <template>
+        <random>
+            <li>Hé lô người anh em</li>
+            <li>Xin chào tôi là chatbot rất vui gặp bạn</li>
+            <li>Chào buổi sáng </li>
+            <li>Chào buổi trưa </li>
+            <li>Chào buổi tối</li>
+            <li>Ngày mới tốt lành </li>
+            <li>Xin chào bạn cần gì nhỉ?</li>
+            <li>Hôm nay trời đẹp nhỉ, chào bạn!! </li>
+        </random>
+    </template>
+    
+  </category>
+
+ ví dụ bạn nhập 1 kí tự bất kì sẽ đưa ra câu trả lời trong list trên -- ánh xạ cho nó giống câu "hi"
+  <category>
+  </category>
+</aiml>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+
+<!-- ví dụ bạn nhập 1 kí tự bất kì sẽ đưa ra câu trả
+ lời trong list trên 
+ ánh xạ cho nó giống câu "hi" -->
+
+
+
+ <category>
+    <pattern>hi there</pattern>
+    <template>
+        <random>
+            <li>Hé lô người anh em</li>
+            <li>Xin chào tôi là chatbot rất vui gặp bạn</li>
+            <li>Chào buổi sáng </li>
+            <li>Chào buổi trưa </li>
+           
+        </random>
+    </template>
+    
+</category>
+
+<category>
+    <pattern>hihi</pattern>
+    <template>
+        <srai>hi there</srai>
+    </template>
+
+</category>
+
+
+
+<category>
+    <pattern>hihi *</pattern>
+    <template>
+        <srai>hi there</srai>
+    </template>
+
+</category>
+
+
+<category>
+    <pattern> *hihi</pattern>
+    <template>
+        <srai>hi there</srai>
+    </template>
+
+</category>
+
+<category>
+    <pattern>_hihi *</pattern>
+    <template>
+        <srai>hi there</srai>
+    </template>
+
+</category>
+</aiml>

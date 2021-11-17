@@ -1,0 +1,44 @@
+<aiml version ="1.0.0" encoding ="UTF-8">
+    <!-- khởi tạo -->
+    
+<category>
+    <pattern>Hello</pattern>
+    <template>hi there!</template>
+
+</category>
+
+<category>
+    <pattern>Xin chào</pattern>
+    <template>Xin chào người anh em!</template>
+</category>
+
+<category>
+    <pattern>BITE ME *</pattern>
+    <template>rất sẵn lòng</template>
+</category>
+
+<category>
+    <pattern>Good night</pattern>
+    <template>Rất cảm ơn đã trò chuyện với tôi</template>
+</category>
+
+
+<category>
+    <pattern>Tôi là *</pattern>
+    <template>
+        Xin chào <set name = "user"> <star/></set>
+    </template>
+</category>
+
+
+<category>
+    <pattern>Good night</pattern>
+    <template>
+        Ngủ ngon <get name ="user" />
+    </template>
+</category>
+
+
+
+
+</aiml>
