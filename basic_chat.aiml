@@ -7,4 +7,19 @@
 
     </category>
 
+     <category>
+        <pattern>Xin chào</pattern>
+        <template>Xin chào người anh em!</template>
+   </category>
+
+
+<category><pattern>BITE ME *</pattern>
+    <template>rất sẵn lòng</template>
+</category>
+
+
+
+
+
+
 </aiml>

@@ -4,6 +4,8 @@
         <pattern>LOAD AIML B</pattern>
         <template> 
             <learn>basic_chat.aiml</learn>
+            <learn>Mau_aiml/sex.aiml</learn>
+
         </template>
 
     </category>
